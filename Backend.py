@@ -12,7 +12,7 @@ class TransactionObject():  # Operações e conexão com o banco de dados
         TransactionObject.cur = TransactionObject.conn.cursor()
         TransactionObject.connected = True
 
-    # Encerra a conexão com o banco de dados
+    # Encerra a conexão com o banco de dados e pronto
     def disconnect(self):
         TransactionObject.conn.close()
         TransactionObject.connected = False

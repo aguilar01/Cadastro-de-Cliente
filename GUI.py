@@ -31,7 +31,7 @@ class GUI:  #classe com interface gráfica
     scrollClientes = Scrollbar(window)
 
     #texto dos botões
-    btnViewALL = Button(window, text="Ver todos")
+    btnViewALL = Button(window, text="Visualizar todos")
     btnBuscar = Button(window, text="Buscar")
     btnInserir = Button(window, text="Inserir")
     btnUpdate = Button(window, text="Atualizar Selecionados")
